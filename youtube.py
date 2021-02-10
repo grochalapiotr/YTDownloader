@@ -13,6 +13,7 @@ class Youtube_app:
         self.root.geometry("500x420+300+50")
         self.root.resizable(False, False)
         self.root.config(bg='white')
+        os.chdir(os.path.dirname(os.path.realpath(__file__)))  #set downloading path to default where the program is
 
         title = Label(self.root,text='Youtube Downloader', font=("times new roman",15), bg='grey', fg='white', anchor='w').pack(side=TOP, fill=X)
 
