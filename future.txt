@@ -1,0 +1,6 @@
+------To be implemented:------
+
+-dropdown menu with resolution choices
+-custom download directory
+-downloading time
+-cancel and pause button
