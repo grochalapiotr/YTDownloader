@@ -94,7 +94,7 @@ class Youtube_app:
 
             #==========determine if file is audio or video=======
             if self.var_fileType.get()=='Audio':
-                select_file = self.yt.streams.filter(only_audio=True).first()  #audio type file
+                self.select_file = self.yt.streams.filter(only_audio=True).first()  #audio type file
             if self.var_fileType.get()=='Video':                    #video type file    
                 #=============dropdown menu===============
                 
